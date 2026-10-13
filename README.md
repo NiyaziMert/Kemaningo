@@ -1,4 +1,4 @@
-# Nizolingo: kemansız keman
+# Kemaningo: Keman Öğretimi
 
 Nizolingo, ESP32-S3 ile yapılmış keman benzeri bir çalgıdır. Sopa bir bakır tele değince o telin sesi çıkar. Teli bir parmak folyosuna bastırınca nota incelir. Tarayıcıdaki uygulama notayı gerçek keman kayıtlarıyla çalar, portede gösterir ve **Bülbül** adlı öğretmen kuş sistemi sıfırdan öğretir.
 
