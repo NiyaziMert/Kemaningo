@@ -1,0 +1,14 @@
+{
+  "id": "ritim_karisik",
+  "title": "Dörtlük ve ikilik karışık ritim",
+  "bpm": 60,
+  "beats_per_bar": 4,
+  "level": 2,
+  "targets": ["early", "late"],
+  "notes": [
+    ["A4", 1], ["A4", 1], ["A4", 2],
+    ["D4", 1], ["D4", 1], ["D4", 2],
+    ["A4", 2], ["A4", 1], ["A4", 1],
+    ["D4", 2], ["D4", 2]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "acik_dortluk",
+  "title": "Tek telde dörtlük notalar",
+  "bpm": 60,
+  "beats_per_bar": 4,
+  "level": 1,
+  "targets": ["early", "late", "wrong_bow_dir"],
+  "notes": [
+    ["A4", 1], ["A4", 1], ["A4", 1], ["A4", 1],
+    ["A4", 1], ["A4", 1], ["A4", 1], ["A4", 1],
+    ["A4", 1], ["A4", 1], ["A4", 1], ["A4", 1],
+    ["A4", 1], ["A4", 1], ["A4", 2]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "yay-ogretmeni",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Keman yayı aleti ve öğretmeni: ESP32 + tarayıcı + yerel dil modeli",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/",
+    "start": "npx --yes http-server web -a 127.0.0.1 -p 8000 -c-1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

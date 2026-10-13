@@ -1,0 +1,17 @@
+{
+  "id": "gecis_komsu",
+  "title": "Komşu tel geçişleri",
+  "bpm": 60,
+  "beats_per_bar": 4,
+  "level": 2,
+  "targets": [
+    "wrong_string",
+    "neighbor_touch"
+  ],
+  "notes": [
+    ["D4", 1], ["D4", 1], ["A4", 1], ["A4", 1],
+    ["D4", 1], ["D4", 1], ["A4", 1], ["A4", 1],
+    ["D4", 1], ["D4", 1], ["A4", 1], ["A4", 1],
+    ["D4", 1], ["D4", 1], ["A4", 1], ["A4", 1]
+  ]
+}

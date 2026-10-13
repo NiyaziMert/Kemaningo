@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+
+# arduino-cli derleme çıktısı (içinde yerel dosya yolları var)
+firmware/yay/build/

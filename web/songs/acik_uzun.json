@@ -1,0 +1,14 @@
+{
+  "id": "acik_uzun",
+  "title": "Açık tellerde uzun yaylar",
+  "bpm": 60,
+  "beats_per_bar": 4,
+  "level": 1,
+  "targets": ["uneven_speed"],
+  "notes": [
+    ["A4", 4], ["A4", 4], ["A4", 4], ["A4", 4],
+    ["D4", 4], ["D4", 4], ["D4", 4], ["D4", 4],
+    ["E5", 4], ["E5", 4], ["E5", 4], ["E5", 4],
+    ["G3", 4], ["G3", 4], ["G3", 4], ["G3", 4]
+  ]
+}

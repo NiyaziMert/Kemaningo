@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nizolingo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span id="brand-bird"></span>
+      <h1>Nizolingo</h1>
+    </div>
+    <nav class="tabs" aria-label="Ekranlar">
+      <button class="tab" data-screen="learn">🎓 <span>Öğren</span></button>
+      <button class="tab" data-screen="play">🎻 <span>Çal</span></button>
+      <button class="tab" data-screen="workshop">🔧 <span>Atölye</span></button>
+    </nav>
+    <div class="stats">
+      <span id="streak" class="stat streak" title="Gün serisi">🔥 0</span>
+      <span id="xp" class="stat xp" title="Deneyim puanı">⭐ 0</span>
+      <div id="topbar" class="topbar-actions"></div>
+    </div>
+  </header>
+
+  <div id="notice" class="notice" hidden></div>
+  <p id="status" class="sr-only">Yükleniyor…</p>
+
+  <!-- Öğren: ders yolu ve ders ekranı -->
+  <section class="screen" data-screen="learn">
+    <div id="path" class="path"></div>
+    <div id="lesson" class="lesson" hidden></div>
+  </section>
+
+  <!-- Çal: Bülbül, porte, çalma, sonuç, notalar; yanda kaynak ve parmaklar -->
+  <section class="screen" data-screen="play" hidden>
+    <div class="top">
+      <section id="tutor" class="card tutor"></section>
+      <section id="staff" class="card staff-card"></section>
+    </div>
+    <main class="layout">
+      <div class="col-main">
+        <section id="play" class="card"></section>
+        <section id="result" class="card" hidden></section>
+        <section id="notes" class="card"></section>
+      </div>
+      <aside class="col-side">
+        <section id="source" class="card"></section>
+        <section id="fingers" class="card"></section>
+      </aside>
+    </main>
+  </section>
+
+  <!-- Atölye: ayarlar ve geliştirici araçları -->
+  <section class="screen" data-screen="workshop" hidden>
+    <main class="layout">
+      <div class="col-main">
+        <section id="motion" class="card"></section>
+        <section id="audiotest" class="card"></section>
+      </div>
+      <aside class="col-side">
+        <section id="settings" class="card"></section>
+      </aside>
+    </main>
+  </section>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
